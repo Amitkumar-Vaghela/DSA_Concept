@@ -1,7 +1,7 @@
 class Node:
  def __init__(self,v):  # def class for tree node
    self.data=v
-   self.left=None
+   self.left=None                                                                              
    self.right=None
   
 def printInorder(node):
@@ -27,8 +27,28 @@ if __name__=='__main__':
    root.right.left=Node(7)
    print("Inorder Traping")
    printInorder(root)
-   
-   
+
+
+             #       1
+             #     /   \
+             #    2      3 
+             #  /  \    /  \
+             # 4    5  6    7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
