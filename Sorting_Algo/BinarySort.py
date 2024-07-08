@@ -12,3 +12,8 @@ def binary_search(arr, target):
             high = mid - 1
 
     return -1  # not found
+
+## Example 
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+index = binary_search(arr, 5)
+print(index)  # Output: 4
