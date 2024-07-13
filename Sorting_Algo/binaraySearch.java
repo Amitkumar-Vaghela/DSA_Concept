@@ -1,5 +1,7 @@
 ## using recursssion 
- binarySearchSort(a,i,j,x){
+ 
+ binarySearchSort(a,i,j,x)
+{
    mid=(i+j)/2;
   if(mid=x)
   {
@@ -13,4 +15,5 @@
   else{
     binarySearchSort(a,mid+1,j,x);
      }
+}
   
