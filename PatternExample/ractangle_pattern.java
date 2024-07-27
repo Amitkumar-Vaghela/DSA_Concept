@@ -2,6 +2,8 @@
 import java.util.*;
 class pattern{
 public static void main (string [] args){
+
+ int n = 5;
  for(int i =1; i<n; i++){
   for(int j =1; j<n; j++){
     system.out.print("*");
@@ -11,7 +13,7 @@ public static void main (string [] args){
   }
 }
 
-// if your input is n = 5 then
+// output shoud be 
   
    * * * * * 
    * * * * *
