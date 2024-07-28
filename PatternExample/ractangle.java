@@ -41,3 +41,11 @@ class Pattern {
     }
 }
 
+// output  will be 
+
+// enter the size of pattern : 5
+ 
+ *   *   *   *   *
+ *   *   *   *   *
+ *   *   *   *   *
+ *   *   *   *   *
