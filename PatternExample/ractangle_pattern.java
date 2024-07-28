@@ -13,6 +13,8 @@ public static void main (string [] args){
   }
 }
 
+
+
 // output shoud be 
   
    * * * * * 
@@ -20,3 +22,22 @@ public static void main (string [] args){
    * * * * *
    * * * * *
    * * * * *
+
+// if the user want to user their input
+    import java.util.Scanner;
+
+class Pattern {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the pattern: ");
+        int n = scanner.nextInt();
+        
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
