@@ -32,3 +32,12 @@ public class Main{
     
   }
 }
+
+
+// output will be 
+  AMIT
+  AMIT
+  AMIT
+  AMIT
+  AMIT
+    
