@@ -3,7 +3,7 @@ class Solution {
 static void  func(int i , int N){
 
   if (i>N) return ;           // check the condition if satisfy then 
-  System.out.println(i);     //  print the number 
+  System.out.print(i);     //  print the number 
   func(i+1 , N);             // increment by 1
 }
   
@@ -12,3 +12,6 @@ static void  func(int i , int N){
     func(1 , N);      // calling the the method 
   }
 }
+
+
+// output wiil be  1 2 3 4 5 
