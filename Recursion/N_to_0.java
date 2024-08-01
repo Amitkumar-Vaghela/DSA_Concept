@@ -1,3 +1,4 @@
+// using parameterised 
 class Recursion {
     
     static void func(int i, int n){
@@ -17,6 +18,24 @@ class Recursion {
        func(n,n);
     }
 }
-
-
 // output will be   4 3 2 1
+
+// using function
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 5;
+        func(n);
+    }
+
+    public static void func(int n) {
+        if (n == 0) {
+            return;
+        } else {
+            System.out.print(n + " ");
+            func(n - 1);
+        }
+    }
+}
