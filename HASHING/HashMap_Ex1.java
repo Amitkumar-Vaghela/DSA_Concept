@@ -25,3 +25,18 @@ public class HashingExample {
         }
     }
 }
+
+
+// output will be 
+
+Value for key 'banana': 7
+Key 'grape' does not exist in the map
+
+
+// explaination 
+/*    
+1> We create a HashMap called hashMap to store key-value pairs.
+2> We add three key-value pairs to the map: "apple" => 5, "banana" => 7, and "orange" => 3.
+3> We retrieve the value associated with the key "banana" using the get() method, which returns 7.
+4> We check if the key "grape" exists in the map using the containsKey() method, which returns false because we didn't add a key-value pair for "grape" to the map.
+*/
