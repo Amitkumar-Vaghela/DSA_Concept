@@ -1,0 +1,25 @@
+//  What is ArrayList?
+/*
+ArrayList is a resizable-array implementation of the List interface in Java. It is a part of the Java Collections Framework and is used to store a collection of elements.
+
+Key Features of ArrayList:
+
+Dynamic Size: ArrayList can grow or shrink in size as elements are added or removed.
+Ordered Collection: ArrayList maintains the order in which elements were added.
+Index-Based Access: Elements can be accessed using an index, similar to an array.
+Fast Random Access: ArrayList provides fast random access to elements, making it suitable for large datasets.
+Fail-Fast Iterators: ArrayList's iterators are fail-fast, meaning they will throw a ConcurrentModificationException if the list is modified while iterating.  */
+
+/* Common Methods of ArrayList:--
+add(E e): Adds an element to the end of the list.
+add(int index, E e): Adds an element at a specific index.
+get(int index): Returns the element at a specific index.
+set(int index, E e): Replaces the element at a specific index.
+remove(int index): Removes the element at a specific index.
+contains(Object o): Returns true if the list contains the specified element.
+size(): Returns the number of elements in the list.
+isEmpty(): Returns true if the list is empty.
+clear(): Removes all elements from the list.
+toArray(): Returns an array containing all elements in the list. */
+
+
