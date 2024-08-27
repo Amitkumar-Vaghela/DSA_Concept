@@ -47,7 +47,7 @@ i = 7: currSum = max(6 + (-5), -5) = 1, maxSum = max(6, 1) = 6
 i = 8: currSum = max(1 + 4, 4) = 5, maxSum = max(6, 5) = 6 
 */
 
-Maximum subarray sum is: 6
+// Maximum subarray sum is: 6
 
 
 
