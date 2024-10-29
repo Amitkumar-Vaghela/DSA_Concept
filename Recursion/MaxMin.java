@@ -11,8 +11,7 @@ public class MinMaxRecursion {
         // Return the minimum of the last element and the minimum of the rest
         return Math.min(arr[n - 1], minRest);
     }
-
-    // Helper method to find the maximum element recursively
+// Helper method to find the maximum element recursively
     public static int findMax(int[] arr, int n) {
         // Base case: if the array has only one element
         if (n == 1) {
@@ -23,7 +22,7 @@ public class MinMaxRecursion {
         // Return the maximum of the last element and the maximum of the rest
         return Math.max(arr[n - 1], maxRest);
     }
-
+// Drive code
     public static void main(String[] args) {
         int[] arr = {12, 34, 5, 70, 56, 92, 10, 2};
         int n = arr.length;
