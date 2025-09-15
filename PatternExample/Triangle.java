@@ -182,3 +182,99 @@ public class ManyTrianglePatterns {
         }
     }
 }
+
+
+
+
+// Enter n: 5
+
+// 1) Left-aligned Star Triangle:
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * * * 
+
+// 2) Right-aligned Star Triangle:
+//         * 
+//       * * 
+//     * * * 
+//   * * * * 
+// * * * * * 
+
+// 3) Centered Pyramid (Stars):
+//         * 
+//       * * * 
+//     * * * * * 
+//   * * * * * * * 
+// * * * * * * * * * 
+
+// 4) Hollow Pyramid:
+//         * 
+//       *   * 
+//     *       * 
+//   *           * 
+// * * * * * * * * * 
+
+// 5) Inverted Star Triangle:
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
+// * 
+
+// 6) Mirrored Left Triangle (stars):
+//         * 
+//       * * 
+//     * * * 
+//   * * * * 
+// * * * * * 
+
+// 7) Floyd's Triangle (numbers):
+// 1 
+// 2 3 
+// 4 5 6 
+// 7 8 9 10 
+// 11 12 13 14 15 
+
+// 8) Number Triangle (row-wise 1..i):
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+// 1 2 3 4 5 
+
+// 9) Inverted Number Triangle:
+// 1 2 3 4 5 
+// 1 2 3 4 
+// 1 2 3 
+// 1 2 
+// 1 
+
+// 10) 0-1 Triangle (alternating):
+// 0 
+// 1 0 
+// 0 1 0 
+// 1 0 1 0 
+// 0 1 0 1 0 
+
+// 11) Character Triangle (A..):
+// A 
+// A B 
+// A B C 
+// A B C D 
+// A B C D E 
+
+// 12) Mirrored Character Triangle:
+//         A 
+//       A B 
+//     A B C 
+//   A B C D 
+// A B C D E 
+
+// 13) Pascal's Triangle:
+//         1   
+//       1   1   
+//     1   2   1   
+//   1   3   3   1   
+// 1   4   6   4   1   
